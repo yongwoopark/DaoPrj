@@ -2,6 +2,9 @@ package com.newlecture.ems.dao;
 
 public class NoticeDao {
 	public int size(){
-		return 0;
+		
+		int num1=10;
+		int num2=20;
+		return num1+num2;
 	}
 }
