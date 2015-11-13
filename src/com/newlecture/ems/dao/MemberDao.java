@@ -16,6 +16,10 @@ public class MemberDao {
 		return getMembers("");
 	}
 	
+	public List<Member> getMembers(int page) throws SQLException{
+		return null;
+	}
+	
 	public List<Member> getMembers(String query) throws SQLException{
 		
 		String sql = "SELECT * FROM MEMBERS WHERE NAME LIKE '%"+query+"%'";
