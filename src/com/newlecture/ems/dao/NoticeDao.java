@@ -5,6 +5,7 @@ public class NoticeDao {
 		
 		int num1=10;
 		int num2=20;
-		return num1+num2;
+		int num5=50;
+		return num1+num2+num5;
 	}
 }
